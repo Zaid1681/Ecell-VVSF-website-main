@@ -1,0 +1,35 @@
+.navbarContainer{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    height: 2rem;
+}
+.navLinks{
+    gap: 2rem;
+    
+}
+.navLinks  a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #202020;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/* .trans{
+    background-color: transparent;
+} */
+.navLinks:hover{
+    text-decoration: none;
+}
+
+.nav-colored{
+    background-color: green;
+}
+
+.nav-transparent{
+    background-color: aliceblue;
+}
