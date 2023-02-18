@@ -1,5 +1,6 @@
 import './App.css'
-import  {Navbar1 , Header , About , Timeline , Events , Talks  , Pitches, Contact}  from "./Components"
+import  {Navbar1 , Header , About , Timeline , Events , Talks  , Pitches, Contact, Form}  from "./Components"
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
       {/* <Talks /> */}
       {/* <Pitches /> */}
       <Contact />
+      <Form />
+      <Footer/>
     </div>
   )
 }

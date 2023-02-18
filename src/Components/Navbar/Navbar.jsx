@@ -34,7 +34,7 @@ const Navbar = () => {
                 <a className=" nav-link-title " href="#">Pitches</a>
               </li> */}
               <li className="nav-item nav-link">
-                <a className=" nav-link-title " href="#">Contact Us</a>
+                <a className=" nav-link-title " href="#contact">Contact Us</a>
               </li>
             </ul>
           </div>

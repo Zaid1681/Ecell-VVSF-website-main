@@ -1,0 +1,12 @@
+.formDiv{
+    background-color: rgba(171, 171, 171, 0.9);
+    border-radius: 20px;
+    
+    
+}
+
+.registerForm{
+
+    width: 60%;
+    margin: 20px auto;
+}

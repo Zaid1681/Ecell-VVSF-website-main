@@ -7,10 +7,10 @@ import land1 from "../../assets/land1.png"
 
 const Header = () => {
   return (
-    <div className='headerContainer'>
-      {/* <img src={land1} alt="" /> */}
+    <div className="">
+      <img src={land1} alt="" style={{ width: "100%" , height :"100vh" }} />
     </div>
-  )
+  );
 }
 
 export default Header
