@@ -5,10 +5,11 @@
 
 .colCard{
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: #edecec;
     width: 30%;
     padding:20px;
-    box-shadow: 2px 3px 10px #888888;
+    box-shadow: 2px 3px 10px #011420 ;
+    
 }
 
 .colCard .logo{
@@ -16,10 +17,25 @@
     margin-bottom: 15px;
 }
 
+.colCard .logo a{
+   color: #000000;
+}
+
+.colCard .logo a:hover{
+    color: #063350;
+ }
+ 
+
 
 .colCard:hover{
-    cursor: pointer;
-    box-shadow: 2px 3px 20px #888888;
+    box-shadow: 5px 8px 30px #000000;
+ 
+}
+
+.contact_reach{
+    color: #edecec;
+    font-size: 24px;
+    font-style: italic;
 }
 
 .map {

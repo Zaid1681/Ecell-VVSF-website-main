@@ -3,6 +3,8 @@
     max-width: 34rem;
     cursor: pointer;
     transition:  ease 0.6s;
+    text-align: center;
+    background-color: #edecec;
 
 }
 .cardContainer > img{
@@ -13,8 +15,8 @@
 .cardContainer:hover{
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.9s;
-    background-color: #e6adad;
-    color: white;
+    background-color: #011420;
+    color: #edecec;
     /* top: -10px; */
     transform: translate(0, -10px);
 
