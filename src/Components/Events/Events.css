@@ -1,5 +1,15 @@
 .eventsCards{
     display: flex;
-    /* gap: 10px; */
+    gap: 10px;
     justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
 }
+
+@media only screen and (max-width:1160px){
+    .eventsCards{
+        flex-direction: column;
+        gap: 15px;
+    }
+   
+  }

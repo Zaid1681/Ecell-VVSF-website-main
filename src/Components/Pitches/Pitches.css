@@ -1,0 +1,11 @@
+.carouselTeamHead{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; */
+    /* width: 100%; */
+}
+.carousel{
+    width: 50%;
+    margin: auto;
+}

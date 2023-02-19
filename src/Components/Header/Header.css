@@ -1,62 +1,89 @@
-#header {
-  background: rgba(52, 58, 64, 0.2);
-  transition: all 0.5s;
-  z-index: 997;
-  top: 40px;
-
- 
-}
-.headerContainer{
-  background-image: url("../../assets//land1.png");
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-
-/* #header.header-scrolled {
-    top: 0;
-    background: rgba(0, 0, 0, 0.9);
-  }
-  
-  #header .logo {
-    font-size: 32px;
-    margin: 0;
-    padding: 0;
-    line-height: 1;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-  
-  #header .logo a {
-    color: #fff;
-  }
-  
-  #header .logo img {
-    max-height: 40px;
-  }
-  
-  @media (max-width: 992px) {
-    #header {
-      top: 0;
-      padding: 15px 0;
-      background: transparent;
-    }
-    #header .logo {
-      font-size: 28px;
-    }
-  }
-  
-  .header-inner-pages {
-    background: rgba(0, 0, 0, 0.9) !important;
-  } */
-
 .headerContainer>img {
   height: 100vh;
   max-height: 100%;
   width: 100vw;
+
+}
+
+.bgHeader {
+  /* The image used */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Specify the background image to be used */
+  background-image: url("../../assets//headerBg.jpg");  background-size: cover;
+  z-index: -1;
+
+  
+
+  /* Set a specific height */
+  height: 100vh;
+  width: 100%;
+  /* Create the parallax scrolling effect */
+ 
+}
+
+
+.efEcellLogo {
+  height: 100%;
+  width: 13rem;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.fgHeader {
+
+  padding-top: 3rem;
+}
+
+.fgLogo1 {
+  display: flex;
+  flex: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.fgLogo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* gap: 10px; */
+  margin-top: -3rem;
+}
+
+.vvsfLogo {
+  width: 50rem;
+}
+
+.learn {
+  width: 20rem;
+}
+
+.fgHeader h2 {
+  font-size: 4rem;
+  font-weight: 550;
+  font-family: 'Roboto';
+}
+
+.fgHeader span {
+  margin-top: -4rem;
+  color: white;
+  font-size: 2rem;
+}
+@media only screen and (max-width:964px){
+  .fgHeader{
+    padding: 3rem 1rem;
+  }
+
+}
+@media only screen and (max-width:400px){
+  .fgHeader{
+    padding: 3rem 2rem;
+  }
 
 }

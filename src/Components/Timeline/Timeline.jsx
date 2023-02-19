@@ -126,8 +126,8 @@ function Timeline() {
   ];
 
   return (
-    <div className='py-5' id="timeline">
-      <h1 className="title my-5">Timeline</h1>
+    <div className='py-5 timelineContainer section-padding'  id="timeline">
+      <h1 className="text-center">Timeline</h1>
       <VerticalTimeline>
         {timelineElements.map((element) => {
           let isWorkIcon = element.icon === "work";

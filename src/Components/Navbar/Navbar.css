@@ -2,11 +2,14 @@
     z-index: 1;
     position: sticky;
     top: 0px;
-    height: 2rem;
 }
 .navLinks{
     gap: 2rem;
     
+}
+
+.navbar{
+    --bs-navbar-padding-y:0
 }
 .navLinks  a{
     display: flex;
@@ -19,17 +22,52 @@
     text-decoration: none;
 }
 
-/* .trans{
-    background-color: transparent;
-} */
-.navLinks:hover{
-    text-decoration: none;
+.navLinks a:hover{
+    color:green
 }
 
+.navbar-nav>li>a {
+        /* background-color: rgb(48, 211, 16); */
+        padding: 0;
+
+}
+
+
+.navLinks:hover{
+    text-decoration: none;
+
+}
+.navbarResp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content:end;
+}
+.navLogo{
+    width: 5rem;
+    /* display: flex;
+    align-items: left ; */
+    height: 100%;
+}
 .nav-colored{
     background-color: green;
 }
 
 .nav-transparent{
     background-color: aliceblue;
+}
+
+@media only screen and (min-width: 800px){
+    .fgHeader{
+        margin: auto;
+        padding: 10rem 2rem;
+    }
+}
+@media only screen and (min-width: 600px){
+
+   
+}
+@media only screen and (max-width:964px){
+
 }

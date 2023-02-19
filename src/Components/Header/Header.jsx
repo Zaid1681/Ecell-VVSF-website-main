@@ -1,14 +1,38 @@
 import React from 'react'
 import "./Header.css"
-// import T1 from "../../assets/T1.jpg"
-// import T2 from "../../assets/T2.jpg"
-import landing from "../../assets/landing.png"
-import land1 from "../../assets/land1.png"
+import headerBg from "../../assets/headerBg.jpg"
+import ecell_logo from "../../assets/ecell_logo.png"
+import learn from "../../assets/learn.png"
+import vvsf from "../../assets/vvsf.png"
 
 const Header = () => {
   return (
-    <div className="">
-      <img src={land1} alt="" style={{ width: "100%" , height :"100vh" }} />
+    <div className="headerContainer">
+      <div className="bgHeader">
+
+        <div className="fgHeader">
+          <div className="fgLogo1">
+            <div>
+              <img className='efEcellLogo' src={ecell_logo} alt="" />
+            </div>
+            <div>
+              <h2 style={{ color: "white" }}>&</h2>
+            </div>
+            <div>
+              <img className='efEcellLogo learn' src={learn} alt="" />
+            </div>
+
+          </div>
+          <div className="fgLogo2">
+            <h1 style={{ color: "white", fontWeight: "600" }}>PRESENT</h1>
+            <div>
+              <img className='efEcellLogo vvsfLogo' src={vvsf} a
+                lt="" />
+            </div>
+            <span>#startupsprint</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

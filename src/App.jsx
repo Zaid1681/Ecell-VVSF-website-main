@@ -12,7 +12,7 @@ function App() {
       <Timeline />
       <Events />
       {/* <Talks /> */}
-      {/* <Pitches /> */}
+      <Pitches />
       <Contact />
       <Form />
       <Footer/>

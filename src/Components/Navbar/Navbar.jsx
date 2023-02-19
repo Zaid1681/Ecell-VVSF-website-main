@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 // import logo from "../../assets/logo.png"
+import vvsf from "../../assets/vvsf.png"
 
 const Navbar = () => {
 
@@ -8,7 +9,7 @@ const Navbar = () => {
     <div className='navbarContainer '>
       <nav class=" navbar mb-0 trans navbar-expand-lg bg-body-tertiary">
         <div class="container navbarContainer ">
-          <a class="navbar-brand " href="#"><b>VVSF</b></a>
+          <img src={vvsf} alt="" className='navLogo' />
           {/* <img src="" alt="" /> */}
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -34,7 +35,7 @@ const Navbar = () => {
                 <a className=" nav-link-title " href="#">Pitches</a>
               </li> */}
               <li className="nav-item nav-link">
-                <a className=" nav-link-title " href="#contact">Contact Us</a>
+                <a className=" nav-link-title " href="#">Contact Us</a>
               </li>
             </ul>
           </div>
