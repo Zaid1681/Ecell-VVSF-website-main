@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Styles from "./Timeline.module.css";
-import  WorkIcon from "../../assets/code.png";
+import  WorkIcon from "../../assets/timeline_logo.png";
 // import  SchoolIcon  from "../../assets/timeline/code.png";
 // import timeline from "./Timeline/timeline";
 
@@ -13,7 +13,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 function Timeline() {
-  let workIconStyles = { background: "#a36ce0" };
+  let workIconStyles = { background: "#000"};
   // let date = {color: white}
   // let schoolIconStyles = { background: "#f9c74f" };
 
@@ -126,49 +126,50 @@ function Timeline() {
   ];
 
   return (
-    <div className='py-5' id="timeline">
-      {/* <h1 className="title my-5 main-title-font">Timeline</h1>
+    <div className="timeline-content" >
+      <div className='py-5' id="timeline">
+        {/* <h1 className="title my-5 main-title-font">Timeline</h1>
       <hr className='m-auto line-padding' /> */}
-      <div className=" text-center section-padding">
-                <h1 className='main-title-font'>Timeline</h1>
-                <hr className='m-auto line-padding' />
-            </div>
-      <VerticalTimeline>
-        {timelineElements.map((element) => {
-          let isWorkIcon = element.icon === "work";
-          let showButton =
-            element.buttonText !== undefined &&
-            element.buttonText !== null &&
-            element.buttonText !== "";
+        <div className=" text-center section-padding">
+          <h1 className='main-title-font'>Timeline</h1>
+          <hr className='m-auto line-padding' />
+        </div>
+        <VerticalTimeline>
+          {timelineElements.map((element) => {
+            let isWorkIcon = element.icon === "work";
+            let showButton =
+              element.buttonText !== undefined &&
+              element.buttonText !== null &&
+              element.buttonText !== "";
 
-          return (
-            <VerticalTimelineElement
-              key={element.key}
-              date={element.date}
-              dateClassName={Styles.date}
-              iconStyle={workIconStyles }
-              icon={ < img src={WorkIcon} className={Styles.image} />}
+            return (
+              <VerticalTimelineElement
+                key={element.key}
+                date={element.date}
+                dateClassName={Styles.date}
+                iconStyle={workIconStyles}
+                icon={< img src={WorkIcon} className={Styles.image} />}
               // iconClassName={Styles.imgicon}
-            >
-              <p>{element.time}</p>
-              <h3 className="vertical-timeline-element-title">
-                {element.title}
-              </h3>
-              <p id="description">{element.description}</p>
-              {showButton && (
-                <a
-                  className={`button ${
-                    isWorkIcon ? "workButton" : "schoolButton"
-                  }`}
-                  href="/"
-                >
-                  {element.buttonText}
-                </a>
-              )}
-            </VerticalTimelineElement>
-          );
-        })}
-      </VerticalTimeline>
+              >
+                <p>{element.time}</p>
+                <h3 className="vertical-timeline-element-title">
+                  {element.title}
+                </h3>
+                <p id="description">{element.description}</p>
+                {showButton && (
+                  <a
+                    className={`button ${isWorkIcon ? "workButton" : "schoolButton"
+                      }`}
+                    href="/"
+                  >
+                    {element.buttonText}
+                  </a>
+                )}
+              </VerticalTimelineElement>
+            );
+          })}
+        </VerticalTimeline>
+      </div>
     </div>
   );
 }

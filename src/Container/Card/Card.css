@@ -15,7 +15,7 @@
 .cardContainer:hover{
     box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.9s;
-    background-color: #011420;
+    background-color: #063350;
     color: #edecec;
     /* top: -10px; */
     transform: translate(0, -10px);

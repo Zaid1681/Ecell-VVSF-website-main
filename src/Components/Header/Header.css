@@ -1,20 +1,5 @@
-#header {
-  background: rgba(52, 58, 64, 0.2);
-  transition: all 0.5s;
-  z-index: 997;
-  top: 40px;
 
- 
-}
-.headerContainer{
-  background-image: url("../../assets//land1.png");
-  min-height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 
-}
 
 /* #header.header-scrolled {
     top: 0;
@@ -54,9 +39,135 @@
     background: rgba(0, 0, 0, 0.9) !important;
   } */
 
-.headerContainer>img {
+
+/* .header img{
+  width: 100%;
   height: 100vh;
-  max-height: 100%;
-  width: 100vw;
+} */
+
+.bgHeader{
+  background-image: url('../../assets/design1.jpg');
+  z-index: -1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Set a specific height */
+  height: 100%;
+  width: 100%;
+}
+
+.fgHeader{
+  z-index: 1;
+}
+
+
+
+.ecell-logo, .learn-logo{
+  width: 20%;
+  margin-top: 5%;
+  
+}
+.para{
+  width: 5%;
+  margin-top: 5%;
+}
+
+.learn-logo img{
+  width: 100%;
+  margin-left: 15%;
+}
+
+.ecell-logo img{
+  width: 80%;
+}
+
+.fgHeader .para{
+  color: white;
+  align-self: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+
+.row{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.fgHeader .para-present{
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  margin-top:3%;
+}
+
+.vvsf-logo {
+  width: 30%;
+  margin-top: 20px;
+}
+
+.vvsf-logo img{
+  width: 100%;
+}
+
+.fgHeader .para-sprint{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top:6%;
+  margin-bottom: 5%;
+}
+
+
+@media (max-width: 375px) {
+  .bgHeader{
+    background-image: url('../../assets/design1.jpg');
+   
+    background-size: cover;
+    /* Set a specific height */
+   
+    width: 100%;
+  }
+
+  
+  .fgHeader .para{
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .fgHeader .para-present{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 700;
+    margin-top:3%;
+  }
+
+  
+.fgHeader .para-sprint{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-top:6%;
+  margin-bottom: 5%;
+}
+  
+
+
 
 }

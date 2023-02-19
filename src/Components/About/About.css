@@ -7,4 +7,12 @@
     height: 100vh;
     flex-direction: column;
     justify-content: space-around;
+    background-image: url('../../assets/3.png');
+    z-index: -1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Set a specific height */
+    width: 100%;
 }
