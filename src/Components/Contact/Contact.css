@@ -1,3 +1,13 @@
+.contact{
+    
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: space-around;
+    
+    
+}
+
 .contact-row{
     display: flex;
     justify-content: space-between;
@@ -36,6 +46,15 @@
     color: #edecec;
     font-size: 24px;
     font-style: italic;
+}
+
+#addressID{
+    text-decoration: none;
+    color: black;
+}
+
+#addressID:hover{
+    color: #063350;
 }
 
 .map {

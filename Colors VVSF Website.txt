@@ -1,0 +1,6 @@
+yellow - #FFC51E
+blue - #063350
+dark blue - #011420
+ribbons - #0B4459
+off white - #edecec
+bg - #063350

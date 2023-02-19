@@ -3,3 +3,11 @@
     /* gap: 10px; */
     justify-content: space-around;
 }
+
+#events{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+
+}

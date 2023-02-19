@@ -36,17 +36,19 @@ const Contact = () => {
               </p>
             </div>
             <div className="colCard">
-              <div className="logo">
-                <a href="#reach_here">
-                    <FaMapMarkerAlt />
-                </a>
+              <a href="#reach_here" id='addressID'>
+                <div className="logo">
+                  
+                      <FaMapMarkerAlt />
+                
+                </div>
+                <h4>Address</h4>
+                <p className="card-text">
+                  Vidyavardhini College of Engineering and Technology, K.T. Marg,
+                  Vasai Road, Vasai-Virar, Maharashtra 401202
+                </p>
+              </a>
               </div>
-              <h4>Address</h4>
-              <p className="card-text">
-                Vidyavardhini College of Engineering and Technology, K.T. Marg,
-                Vasai Road, Vasai-Virar, Maharashtra 401202
-              </p>
-            </div>
             <div className="colCard">
               <div className="logo">
                 <FaEnvelope />

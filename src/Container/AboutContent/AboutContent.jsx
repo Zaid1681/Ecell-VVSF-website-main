@@ -1,11 +1,13 @@
 import React from 'react'
 import "./AboutContent.css"
+import ECELL from '../../assets/ecell.png'
+
 
 const AboutContent = (props) => {
   return (
     <div className='aboutContainer content-padding' >
       <div className="aboutImg">
-        <img className='aboutImage' src="https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?cs=srgb&dl=pexels-pixabay-206359.jpg&fm=jpg" alt="" />
+        <img className='aboutImage' src={ECELL} alt="" />
       </div>
       <div className='aboutContent'>
         <h1 className='text-title'>{props.header}</h1>

@@ -1,14 +1,18 @@
 .footerContainer{
     width: 100%;
-    max-width: 100vw;
-    height: 80px;
-    background: #5c5c5c;
+    /* height: 80px; */
+    /* background: #5c5c5c; */
+    background: #011420;
     text-align: center;
-
+    display: block;
+    position: absolute;
+    
 
 }
 
 .footerContainer p{
-    color: #d4cece;
+    /* color: #d4cece; */
+    color: #edecec;
     padding: 30px;
+    font-size: 16px;
 }

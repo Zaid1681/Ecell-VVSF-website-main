@@ -5,6 +5,15 @@
     color: rgb(53, 53, 53);
   } */
   
+  #timeline{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: red;
+  }
+
+
   .title {
     font-size: 15em;
     text-align: center;
@@ -31,7 +40,7 @@
   
   .date  {
     /* font-size: 30px; */
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   #description {
