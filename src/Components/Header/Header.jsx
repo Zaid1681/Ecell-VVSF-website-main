@@ -11,7 +11,8 @@ const Header = () => {
       <div className="bgHeader">
 
         <div className="fgHeader" >
-          <div className="fgLogo1" data-aos="fade-zoom-in"
+          <div className="fgLogo1"
+            data-aos="fade-zoom-in"
             data-aos-easing="ease-in-back"
             data-aos-delay="300"
             data-aos-offset="0"  >
@@ -27,15 +28,17 @@ const Header = () => {
 
           </div>
           <div className="fgLogo2">
-            <h1 style={{ color: "white", fontWeight: "600" }}>PRESENT</h1>
+            <h1 data-aos="fade-zoom-in"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300" style={{ color: "white", fontWeight: "600" }}>PRESENT</h1>
             <div>
-              <img className='efEcellLogo vvsfLogo' data-aos="zoom-out-up" data-aos-duration="3000" src={vvsf} a
+              <img className='efEcellLogo vvsfLogo' data-aos="zoom-out-up" data-aos-duration="2000" src={vvsf} a
                 lt="" />
             </div>
             <span data-aos="fade-zoom-in"
-     data-aos-easing="ease-in-back"
-     data-aos-delay="300"
-     data-aos-offset="0">#startupsprint</span>
+              data-aos-easing="ease-in-back"
+              data-aos-delay="1000"
+            >#startupsprint</span>
           </div>
         </div>
       </div>

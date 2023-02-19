@@ -39,7 +39,7 @@
 
 .map iframe{
     height: 400px;
-    width: 60%;
+    width: 100%;
 }
 
 
@@ -56,4 +56,12 @@
         width: 10%;
     }
    
+  }
+
+  @media only screen and (max-width:400px){
+    .colCard{
+        width: 25rem;
+     
+    }
+  
   }
