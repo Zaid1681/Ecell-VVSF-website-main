@@ -34,7 +34,7 @@
 
 .fgHeader {
 
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 .fgLogo1 {
@@ -83,7 +83,7 @@
 }
 @media only screen and (max-width:400px){
   .fgHeader{
-    padding: 3rem 2rem;
+    padding: 3rem 3rem;
   }
 
 }

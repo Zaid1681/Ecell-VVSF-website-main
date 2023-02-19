@@ -3,7 +3,7 @@ import "./Pitches.css"
 
 const Pitches = () => {
   return (
-    <div className='content-padding pitchesContainer'>
+    <div className='content-padding pitchesContainer'  data-aos="zoom-in">
       <div className="pitchesHeader text-center section-padding">
         <h1 className=' main-title-font "'>Team Head</h1>
         <hr className='m-auto line-padding' />

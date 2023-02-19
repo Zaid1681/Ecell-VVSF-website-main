@@ -13,7 +13,8 @@ const Contact = () => {
         </div>
         <div className="contactContent section-padding">
           <div className="contact-row">
-            <div className="colCard">
+            <div className="colCard"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
               <div className="logo">
                 <FaPhoneAlt />
               </div>
@@ -35,7 +36,8 @@ const Contact = () => {
                 <b>Kaustubh</b> <i> +91 8805787962</i>
               </p>
             </div>
-            <div className="colCard">
+            <div className="colCard"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
               <div className="logo">
                 <FaMapMarkerAlt />
               </div>
@@ -45,7 +47,8 @@ const Contact = () => {
                 Vasai Road, Vasai-Virar, Maharashtra 401202
               </p>
             </div>
-            <div className="colCard">
+            <div className="colCard"  data-aos="fade-up"
+     data-aos-anchor-placement="bottom-bottom">
               <div className="logo">
                 <FaEnvelope />
               </div>

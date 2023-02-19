@@ -10,8 +10,11 @@ const Header = () => {
     <div className="headerContainer">
       <div className="bgHeader">
 
-        <div className="fgHeader">
-          <div className="fgLogo1">
+        <div className="fgHeader" >
+          <div className="fgLogo1" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0"  >
             <div>
               <img className='efEcellLogo' src={ecell_logo} alt="" />
             </div>
@@ -26,10 +29,13 @@ const Header = () => {
           <div className="fgLogo2">
             <h1 style={{ color: "white", fontWeight: "600" }}>PRESENT</h1>
             <div>
-              <img className='efEcellLogo vvsfLogo' src={vvsf} a
+              <img className='efEcellLogo vvsfLogo' data-aos="zoom-out-up" data-aos-duration="3000" src={vvsf} a
                 lt="" />
             </div>
-            <span>#startupsprint</span>
+            <span data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0">#startupsprint</span>
           </div>
         </div>
       </div>

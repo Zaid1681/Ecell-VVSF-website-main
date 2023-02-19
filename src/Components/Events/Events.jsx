@@ -9,8 +9,8 @@ const Events = () => {
         <h1 className='text-center main-title-font'>Our Events</h1>
         <hr className='line-padding m-auto' />
       </div>
-      <div className="eventsCards content-padding">
-        <Card img=""/>
+      <div className="eventsCards content-padding " >
+        <Card img="" />
         <Card img="" />
         <Card img=""/>
       </div>
